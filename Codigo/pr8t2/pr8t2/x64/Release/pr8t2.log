@@ -1,0 +1,21 @@
+﻿Compilación iniciada a las 03/11/2015 16:47:04.
+     1>Proyecto "c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\pr8t2\pr8t2.vcxproj" en el nodo 2 (Build destinos).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\x64\Release\pr8t2.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.0.110\windows\mkl\lib\intel64" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mkl_core.lib mkl_sequential.lib mkl_intel_lp64.lib cusolver.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\x64\Release\pr8t2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\x64\Release\pr8t2.lib" /MACHINE:X64 x64\Release\eTimer.obj
+         x64\Release\pr8t2.obj
+         Generando código
+         Generación de código finalizada
+         pr8t2.vcxproj -> c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\x64\Release\pr8t2.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 archivo(s) copiado(s).
+     1>Compilación del proyecto terminada "c:\Users\geco\documents\visual studio 2013\Projects\pr8t2\pr8t2\pr8t2.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.35

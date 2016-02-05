@@ -1,0 +1,27 @@
+﻿Compilación iniciada a las 03/11/2015 15:51:07.
+     1>Proyecto "c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\pr8t1\pr8t1.vcxproj" en el nodo 2 (Build destinos).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\pr8t1\pr8t1.cu" 
+       CudaBuild:
+         Compiling CUDA source file pr8t1.cu...
+         cmd.exe /C "C:\Users\geco\AppData\Local\Temp\tmpcd5b828fa8024f20a1155051dbdc2f05.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o Release\pr8t1.cu.obj "c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\pr8t1\pr8t1.cu"
+         
+         c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\pr8t1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o Release\pr8t1.cu.obj "c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\pr8t1\pr8t1.cu" 
+     1>c:/Users/geco/documents/visual studio 2013/Projects/pr8t1/pr8t1/pr8t1.cu(50): warning : variable "cudaStatus" was set but never used
+     1>c:/Users/geco/documents/visual studio 2013/Projects/pr8t1/pr8t1/pr8t1.cu(51): warning : variable "cublasStatus" was set but never used
+     1>c:/Users/geco/documents/visual studio 2013/Projects/pr8t1/pr8t1/pr8t1.cu(50): warning : variable "cudaStatus" was set but never used
+     1>c:/Users/geco/documents/visual studio 2013/Projects/pr8t1/pr8t1/pr8t1.cu(51): warning : variable "cublasStatus" was set but never used
+         pr8t1.cu
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt eTimer.cpp
+         eTimer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\Release\pr8t1.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2016.0.110\windows\mkl\lib\intel64" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" mkl_intel_c_dll.lib mkl_sequential_dll.lib mkl_core_dll.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mkl_core.lib mkl_sequential.lib mkl_intel_lp64.lib cublas.lib cublas_device.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\Release\pr8t1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\Release\pr8t1.lib" /MACHINE:X86 /SAFESEH Release\pr8t1.cu.obj
+         Release\eTimer.obj
+     1>LINK : fatal error LNK1181: no se puede abrir el archivo de entrada 'cublas.lib'
+     1>Compilación del proyecto terminada "c:\Users\geco\documents\visual studio 2013\Projects\pr8t1\pr8t1\pr8t1.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:15.17
